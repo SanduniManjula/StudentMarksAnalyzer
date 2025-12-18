@@ -5,7 +5,6 @@ import Utils
 import Data.List (sortOn)
 
 -- Compute the Result for a Student
--- Optional: weighted marks (first mark 60%, others equally 40%)
 computeResult :: Student -> Result
 computeResult s =
   let ms     = marks s
