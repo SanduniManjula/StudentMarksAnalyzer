@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Marks Analyzer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Student Marks Analyzer</h2>
+
+    <div id="form">
+      <input type="text" id="name" placeholder="Student Name" />
+      <input type="text" id="marks" placeholder="Marks (e.g., 80,90,70)" />
+      <button onclick="addStudent()">Add Student</button>
+      <button onclick="submitData()">Analyze</button>
+    </div>
+
+    <h3>Results:</h3>
+    <pre id="results"></pre>
+    <canvas id="chart" width="400" height="200"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
