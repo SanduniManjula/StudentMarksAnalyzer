@@ -18,6 +18,7 @@ A simple Haskell program that reads student marks from a CSV file, calculates to
    ```bash
    cd backend
    ghci
+   :load Main.hs
    main
    ```
    enter the csv file path
