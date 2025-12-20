@@ -9,7 +9,7 @@
 
 ## Description
 
-A simple Haskell program that reads student marks from a CSV file, calculates total, average, and grade, and prints a ranked summary.
+This project builds a simple Haskell program that reads student marks from a CSV file and automatically calculates totals, averages, grades, and student rankings. It demonstrates how functional programming enables accurate, reliable, and maintainable data processing for real-world academic evaluation systems.
 
 ## How to Run
 
@@ -22,6 +22,10 @@ A simple Haskell program that reads student marks from a CSV file, calculates to
    main
    ```
    enter the csv file path
+
+## Sample input/output
+
+![Student Marks Analyzer Output](images/output.jpg)
 
 ## Functional Programming Concepts Used
 
